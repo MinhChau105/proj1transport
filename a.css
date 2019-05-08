@@ -1,0 +1,539 @@
+ 
+html,body{
+    height:100%;
+    width:100%; 
+    overflow-x: hidden;
+}
+
+
+
+ /*.wrap {
+    height: 100%;
+    width: 100%;
+    
+} */
+
+.start {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.wallpaper {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    background-position: center;
+}
+
+.start ul {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.start li {
+    height: 100%;
+    width: 100%;
+}
+
+
+.be {position: fixed;margin: 0% 1%;left: 20px;z-index: 1000;}
+
+.link {
+    position: fixed;
+    top: 4%;
+    left: 55%;
+    z-index: 1000;
+}
+
+.link a {
+    font-size: 19px;
+    padding: 58px;
+    color: #a5a0a0;
+    text-decoration: none;
+    opacity: 0.9;
+    font-family: Segoe ui;
+    font-weight: 400;
+}
+
+
+
+.link a:hover {
+    transition: 0.5s;
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.text {
+    position: absolute;
+    left: 4%;
+    font-size: 60px;
+    font-family: segoe ui;
+    font-weight: 700;
+    z-index: 5;
+    opacity: 1;
+    line-height: 69px;
+    display: block;
+    top: 230px;
+    color: white;
+    /* opacity: 0; */
+}
+
+.text p {
+    /* padding-top: 24%; */
+}
+
+.khunghinh {
+    position: relative;
+    top: 88%;
+    left: 6%;
+    z-index: 2;
+}
+
+
+/*.khunghinh{
+    animation: A 1s forwards;
+}
+@-webkit-keyframes A{
+    
+    from{
+    top:91%;
+    opacity: 0;
+    }
+
+    to{
+    top:88%;
+    opacity:1;
+    }
+}
+
+.khunghinhphai{
+    animation: B 1s forwards;
+}
+@-webkit-keyframes B{
+    
+    from{
+    top:53%;
+    opacity: 0;
+    }
+
+    to{
+    top:50%;
+    opacity:1;
+    }
+}
+
+
+.text{
+    animation: C 1s forwards;
+    animation-delay: 0.3s
+}
+@-webkit-keyframes C{
+    
+    from{
+    top:250px;
+    opacity: 0;
+    }
+
+    to{
+    top:220px;
+    opacity:1;
+    }
+}*/
+
+img.h2 {
+    z-index: 1;
+    left: 11%;
+    margin-top: -5.5%;
+}
+
+.texthinh {
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    top: 94%;
+    left: 8%;
+    z-index: 3;
+    font-family: Segoe ui;
+    opacity: 1;
+    visibility: visible;
+}
+
+p.p2 {
+    position: absolute;
+    left: 273%;
+    top: -130%;
+}
+
+
+.linkhinh {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    left: 8%;
+    top: 107%;
+    z-index: 4;
+}
+
+.linkhinh a {
+}
+
+a.a2 {
+    position: absolute;
+    left: 11.5%;
+    top: -104px;
+}
+
+.khunghinhphai {
+    position: absolute;
+    right: 28%;
+    top: 48%;
+    z-index: 2;
+    opacity: 1;
+    visibility: visible;
+}
+
+.texthinhphai {
+    position: absolute;
+    color: white;
+    font-family: segoe ui;
+    text-indent: 30px;
+    left: 74%;
+    z-index: 3;
+    font-size: 23px;
+    top: 58%;
+}
+
+
+
+.texthinhphai .ke {
+    width: 150px;
+    background: #ffbf00;
+    margin: 2px;
+    opacity: 0.6;
+    height: 3px;
+    position: absolute;
+    top: 39%;
+    left: 9%;
+}
+
+.wallpaper2 {
+    position: relative;
+    background: #0d0d0d;
+    width: 110%;
+    height: 105%;
+    /* top: 116%; */
+    filter: blur(40px);
+    left: -4%;
+}
+
+
+
+
+
+
+
+
+/*slide ABOUT*/
+
+
+
+
+
+.About {
+    position: relative;
+    height: 189%;
+    width: 100%;
+}
+
+.wallicon {
+    position: absolute;
+    top: 79%;
+    left: -1%;
+    background-color: transparent;
+    width: 45%;
+}
+
+.hinh1 {position: absolute;top: 51%;margin: 0% 23%;}
+
+img {
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.khoangcach {
+    margin: auto;
+}
+
+.text2 {
+    position: absolute;
+    top: 17%;
+    margin: 0% 32%;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: initial;
+}
+
+.ke2 {
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    top: 15%;
+    left: 50%;
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+    background: #ffd500db;
+    transform: translateX(-50%);
+}
+
+.icon2 {
+    z-index: 5;
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    top: 38%;
+    height: 5%;
+    width: 100%;
+}
+
+img {
+    position: absolute;
+}
+
+
+
+.icon2 .xe1 {
+    position: absolute;
+    left: 25%;
+}
+
+.icon2 .xe2 {
+    position: absolute;
+    left: 48%;
+}
+
+.icon2 .xe3 {
+    position: absolute;
+    left: 73%;
+}
+
+.xe1 p {
+    color: white;
+    margin: 2% 72%;
+    font-size: 20px;
+    font-family: segoe ui;
+}
+.xe2 p{
+    color: white;
+    margin: 2% 60%;
+    font-size: 20px;
+    font-family: segoe ui;
+}
+
+.xe3 p{
+    color: white;
+    margin: 2% 59%;
+    font-size: 20px;
+    font-family: segoe ui;
+}
+
+.keicon1 {
+    position: absolute;
+    background: #d98504;
+    height: 2px;
+    width: 55px;
+    margin: 6% 72%;
+}
+
+.keicon {
+    position: absolute;
+    height: 2px;
+    width: 55px;
+    background: #d98504;
+    margin: 4% 61%;
+}
+
+.text3 {
+    position: absolute;
+    margin: -18% 10%;
+    font-family: segoe ui;
+    font-size: 16px;
+    left: 53%;
+    color: #b9b9b9;
+    z-index: 10;
+}
+
+.wallpaper3 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.wallpaper3 .den {
+    background: black;
+    position: absolute;
+    width: 102%;
+    padding: 8% 0%;
+    margin: 0% 0%;
+    /* -webkit-filter: blur(2px); */
+    left: -2%;
+}
+
+.den2 {
+    background: black;
+    position: absolute;
+    width: 102%;
+    padding: 7% 0%;
+    margin: 44% 0%;
+    /* -webkit-filter: blur(2px); */
+    left: -2%;
+    }
+
+.hinhfixed {
+    background-image: url('services/wall2.jpg');
+    position: absolute;
+    width: 100%;
+    margin: 9% 0%;
+    padding: 18% 0%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text4 {
+    position: relative;
+}
+
+.text4 .ke3 {
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background: #ffae00;
+    z-index: 10;
+    top: 0%;
+    margin: -55% 17%;
+}
+
+.text4 p {
+    position: absolute;
+    color: white;
+    z-index: 10;
+    margin: -54% 17%;
+    font-size: 55px;
+    font-family: segoe ui;
+    font-weight: 700;
+}
+
+span.themecolor {
+    color: #e5320e;
+}
+
+.hinhvatext {
+    position: relative;
+    margin: -76% 3%;
+    padding: 0% 0%;
+}
+
+.hinhsilde31 {
+    background-image: url('services/pic1.jpg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 12%  15%;
+    margin: 51% 34%;
+    position: absolute;
+    left: 17%;
+}
+
+.hinhphai .hinhslide32 {
+    background-image: url(services/pic2.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 12% 15%;
+    margin: 51% -12%;
+    position: absolute;
+    left: 33%;
+    }
+
+.hinhphai p.pphai {position: absolute;margin: 65% 23%;z-index: 10;font-size: 41px;color: white;font-family: segoe ui;font-weight: 700;padding: 0% 0%;}
+
+.hinhphai {
+}
+
+.hinhtrai p.ptrai {
+    position: absolute;
+    left: 53%;
+    margin: 65% 0%;
+    font-size: 40px;
+    z-index: 5;
+    color: white;
+    font-weight: 700;
+    font-family: segoe ui;
+}
+
+.service {
+    position: relative;
+    width: 100%;
+    height: 119%;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    height: 33%;
+}
+
+
+
+
+.wall4 {
+    background: #e6e6e6;
+    position: absolute;
+    top: 147%;
+    width: 100%;
+    height: 107%;
+}
+
+.textlon {
+    position: relative;
+    top: -69%;
+    z-index: 5;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: segoe ui;
+    left: 10%;
+    text-decoration: none;
+}
+
+span.theme {
+    color: red;
+}
+
+.background2 {
+    background: #e0e0e0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: -1% 0%;
+}
